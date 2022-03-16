@@ -10,7 +10,7 @@ export default function Docs() {
   return (
     <div className="bg-background">
       <Head>
-        <title>Bhailang - A toy programming language based on an inside joke</title>
+        <title>MamuLang - A toy tamil programming language based on an inside joke</title>
         <meta property="og:title" content="Bhailang - A toy programming language based on an inside joke" key="title" />
         <meta property="og:type" content="website" key="type" />
         <meta property="og:url" content="https://bhailang.js.org" key="url" />
