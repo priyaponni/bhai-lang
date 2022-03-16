@@ -13,7 +13,7 @@ export default function Header() {
                 <BhaiLangLogo />
               </div>
               <p className="mt-3 text-center text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                A toy programming language written in Typescript
+                A toy tamil programming language written in Typescript
               </p>
               <div className="prose text-center pt-4 pb-4">
                 {" "}
@@ -55,6 +55,14 @@ export default function Header() {
                   href="https://github.com/ristri"
                 >
                   <span className="text-bhagwa-700"> @ristri</span>
+                </a>
+                and
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/priyaponni"
+                >
+                  <span className="text-bhagwa-700"> @priyaponni</span>
                 </a>
               </div>
             </div>
