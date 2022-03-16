@@ -1,23 +1,23 @@
 export const TokenTypes = {
   NULL_TYPE: null,
 
-  HI_BHAI_TYPE: "hi bhai",
+  HI_BHAI_TYPE: "hi mamu",
 
-  BYE_BHAI_TYPE: "bye bhai",
+  BYE_BHAI_TYPE: "bye mamu",
 
-  BOL_BHAI_TYPE: "bol bhai",
+  BOL_BHAI_TYPE: "sollu mamu",
 
-  BHAI_YE_HAI_TYPE: "bhai ye hai",
+  BHAI_YE_HAI_TYPE: "mamu ye hai",
 
-  AGAR_BHAI: "agar bhai",
+  AGAR_BHAI: "agar mamu",
 
-  WARNA_BHAI: "warna bhai",
+  WARNA_BHAI: "warna mamu",
 
-  JAB_TAK_BHAI: "jab tak bhai",
+  JAB_TAK_BHAI: "jab tak mamu",
 
-  BAS_KAR_BHAI: "bas kar bhai",
+  BAS_KAR_BHAI: "bas kar mamu",
 
-  AGLA_DEKH_BHAI: "agla dekh bhai",
+  AGLA_DEKH_BHAI: "agla dekh mamu",
 
   NALLA_TYPE: "NALLA",
 
@@ -77,16 +77,16 @@ export const SPEC = [
   { regex: /^,/, tokenType: TokenTypes.COMMA_TYPE },
 
   //Keywords
-  { regex: /^\bhi bhai\b/, tokenType: TokenTypes.HI_BHAI_TYPE },
-  { regex: /^\bbye bhai\b/, tokenType: TokenTypes.BYE_BHAI_TYPE },
-  { regex: /^\bbol bhai\b/, tokenType: TokenTypes.BOL_BHAI_TYPE },
+  { regex: /^\bhi mamu\b/, tokenType: TokenTypes.HI_BHAI_TYPE },
+  { regex: /^\bbye mamu\b/, tokenType: TokenTypes.BYE_BHAI_TYPE },
+  { regex: /^\bsollu mamu\b/, tokenType: TokenTypes.BOL_BHAI_TYPE },
   { regex: /^\bbhai ye hai\b/, tokenType: TokenTypes.BHAI_YE_HAI_TYPE },
-  { regex: /^\bagar bhai\b/, tokenType: TokenTypes.AGAR_BHAI },
-  { regex: /^\bwarna bhai\b/, tokenType: TokenTypes.WARNA_BHAI },
+  { regex: /^\bagar mamu\b/, tokenType: TokenTypes.AGAR_BHAI },
+  { regex: /^\bwarna mamu\b/, tokenType: TokenTypes.WARNA_BHAI },
   { regex: /^\bnalla\b/, tokenType: TokenTypes.NALLA_TYPE },
-  { regex: /^\bjab tak bhai\b/, tokenType: TokenTypes.JAB_TAK_BHAI },
-  { regex: /^\bbas kar bhai\b/, tokenType: TokenTypes.BAS_KAR_BHAI },
-  { regex: /^\bagla dekh bhai\b/, tokenType: TokenTypes.AGLA_DEKH_BHAI },
+  { regex: /^\bjab tak mamu\b/, tokenType: TokenTypes.JAB_TAK_BHAI },
+  { regex: /^\bbas kar mamu\b/, tokenType: TokenTypes.BAS_KAR_BHAI },
+  { regex: /^\bagla dekh mamu\b/, tokenType: TokenTypes.AGLA_DEKH_BHAI },
 
   // Number
   { regex: /^-?\d+/, tokenType: TokenTypes.NUMBER_TYPE },

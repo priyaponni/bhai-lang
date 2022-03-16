@@ -9,23 +9,9 @@ import Terminal from "./Terminal";
 
 
 const initialCode = `
-hi bhai
- bol bhai "Hello World";
- 
-  bhai ye hai a = 3;
-  bhai ye hai b = 0;
-
-  jab tak bhai (b < 5) {
-    bol bhai b;
-
-    agar bhai (b == a){
-      bol bhai "b is equal to a";
-    }
-
-    b += 1;
-  }
-
-bye bhai
+hi mamu
+ sollu mamu "Magizhchi";
+bye mamu
 `;
 
 const Code = (props: Props) => {

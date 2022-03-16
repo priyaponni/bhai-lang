@@ -15,9 +15,10 @@ const features = [
     ),
     code: `This will be ignored
 
-hi bhai
+hi mamu
+  sollu mamu "type anything to display";
   // Write code here
-bye bhai
+bye mamu
 
 This too
     `,

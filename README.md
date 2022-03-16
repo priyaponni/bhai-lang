@@ -28,9 +28,9 @@ npm i -g bhailang
 You can also try out your code on <a href="https://bhailang.js.org/#playground">Bhai Lang PlayGround</a></h4>
 
 ```
-hi bhai
-  bol bhai "Hello bhai";
-bye bhai
+hi mamu
+  sollu mamu "Hello bhai";
+bye mamu
 
 ```
 
